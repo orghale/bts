@@ -41,7 +41,7 @@ namespace bts.BusinessLogic
             }
             catch (Exception e)
             {
-                return Task.FromResult(new[] { "error creating person", e.Message });
+                return Task.FromResult(new[] { "Error creating person", e.Message });
             }
         }
 

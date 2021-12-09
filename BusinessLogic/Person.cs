@@ -9,7 +9,7 @@ namespace bts.BusinessLogic
 {
     public class Person : Iperson
     {
-        private List<PersonDto> people;
+        private List<PersonDto> people = new List<PersonDto>();
 
         public Person()
         {

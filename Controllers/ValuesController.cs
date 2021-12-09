@@ -12,11 +12,11 @@ namespace bts.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class PersonController : ControllerBase
     {
         private readonly Iperson _p;
 
-        public ValuesController(Iperson p)
+        public PersonController(Iperson p)
         {
             _p = p;
         }
